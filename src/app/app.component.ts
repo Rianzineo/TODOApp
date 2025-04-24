@@ -14,7 +14,7 @@ export class AppComponent {
   arrayDeTarefas: Tarefa[] = [];
   apiURL : string;
 constructor(private http: HttpClient) {
-this.apiURL = 'https://rian236256.onrender.com/api/getall';
+this.apiURL = 'https://rian236256.onrender.com/';
 this.READ_tarefas();
 }
 
